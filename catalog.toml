@@ -1,0 +1,17 @@
+format = 1
+
+[[module]]
+id = "inventory"
+title = "Evdeki Eşyalar"
+description = "Ev eşyalarını ve adetlerini yerel SQLite'ta tutar."
+kind = "panel"
+source = "git+https://github.com/bbnet90/home-inventory"
+featured = true
+
+[[module]]
+id = "budget"
+title = "Bütçe"
+description = "Aylık bütçe, gelir-gider ve günlük kullanılabilir para."
+kind = "panel"
+source = "git+https://github.com/bbnet90/budget-stream"
+featured = true
