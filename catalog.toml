@@ -17,3 +17,14 @@ kind = "panel"
 source = "git+https://github.com/bbnet90/budget-stream"
 ref = "e0a264904bee642e17c66c96526bd032b1f722bc"
 featured = true
+
+[[module]]
+id = "todo"
+title = "Yapılacaklar"
+description = "Görevlerini terminalden takip et."
+kind = "command"
+installer = "npm-tarball"
+source = "https://github.com/bbnet90/todo-cli/releases/download/v1.0.0/todo-cli-1.0.0.tgz"
+sha256 = "4b6d00242af45cee3a049fbffed52391b800d55c48358b3f7e4880fd4d555081"
+executable = "todo"
+data_file_env = "TODO_CLI_DATA_FILE"
